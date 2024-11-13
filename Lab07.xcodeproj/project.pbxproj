@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		ECF0773F2CE443A300A342BD /* Lab07App.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0773E2CE443A300A342BD /* Lab07App.swift */; };
-		ECF077412CE443A300A342BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF077402CE443A300A342BD /* ContentView.swift */; };
+		ECF077412CE443A300A342BD /* VistaMapa.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF077402CE443A300A342BD /* VistaMapa.swift */; };
 		ECF077432CE443B100A342BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF077422CE443B100A342BD /* Assets.xcassets */; };
 		ECF077462CE443B100A342BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF077452CE443B100A342BD /* Preview Assets.xcassets */; };
+		ECF0774D2CE449FB00A342BD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF0774C2CE449FB00A342BD /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECF0773B2CE443A300A342BD /* Lab07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab07.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF0773E2CE443A300A342BD /* Lab07App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab07App.swift; sourceTree = "<group>"; };
-		ECF077402CE443A300A342BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECF077402CE443A300A342BD /* VistaMapa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaMapa.swift; sourceTree = "<group>"; };
 		ECF077422CE443B100A342BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF077452CE443B100A342BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECF0774C2CE449FB00A342BD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				ECF0773E2CE443A300A342BD /* Lab07App.swift */,
-				ECF077402CE443A300A342BD /* ContentView.swift */,
+				ECF077402CE443A300A342BD /* VistaMapa.swift */,
+				ECF0774C2CE449FB00A342BD /* LocationManager.swift */,
 				ECF077422CE443B100A342BD /* Assets.xcassets */,
 				ECF077442CE443B100A342BD /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECF077412CE443A300A342BD /* ContentView.swift in Sources */,
+				ECF077412CE443A300A342BD /* VistaMapa.swift in Sources */,
 				ECF0773F2CE443A300A342BD /* Lab07App.swift in Sources */,
+				ECF0774D2CE449FB00A342BD /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +275,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Lab07/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +305,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Lab07/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
